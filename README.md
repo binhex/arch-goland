@@ -68,6 +68,8 @@ e.g.:-
 
 **Notes**
 
+`ENABLE_STARTUP_SCRIPTS` when set to `yes` will allow a user to define additional packages to install from the official Arch Repository or the Arch User Repository (AUR) via scripts located in the folder `/config/home/scripts/`. A sample bash script is located at `/config/home/scripts/example-startup-script.sh` with comments to guide the user on script creation.
+
 User ID (PUID) and Group ID (PGID) can be found by issuing the following command for the user you want to run the container as:-
 
 ```
