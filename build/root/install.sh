@@ -55,10 +55,10 @@ fi
 ####
 
 # define aur packages
-aur_packages="goland goland-jre"
+aur_packages="goland,goland-jre"
 
 # call aur install script (arch user repo)
-source aur.sh
+aur.sh --aur-package "${aur_packages}"
 
 # config novnc
 ###
